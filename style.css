@@ -1,4 +1,4 @@
-.principal {
+.about {
     background: #f7e8d8;
     padding: 35px;
 }
@@ -7,11 +7,11 @@
     width: 100%;
 }
 
-.titulo-principal {
+.main-title {
     padding-left: 20px;
 }
 
-.titulo-centralizado {
+.centered-title {
     text-align: center; 
     background: #f9cbd0;
 }
@@ -21,7 +21,7 @@ p {
     background: #95daf8;
 }
 
-#missao {
+#goal {
     font-size: 20px;
 }
 
@@ -29,7 +29,7 @@ em strong {
     color: #f492a5;
 }
 
-.beneficios {
+.benefits {
     background: #FFFFFF;
 }
 
@@ -44,6 +44,6 @@ ul {
     margin-right: 15%;
 }
 
-.imagembeneficios {
+.benefits_image {
     width: 50%;
 }
