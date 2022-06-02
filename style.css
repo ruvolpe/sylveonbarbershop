@@ -42,26 +42,36 @@ nav a:hover {
 .about, .benefits {
     padding: 35px;
     color: #778BBE;
-    text-align: center;
 }
 
-#banner {
+.banner {
     width: 100%;
 }
 
 .main-title {
-    padding-left: 20px;
-}
-
-.centered-title {
     text-align: center; 
     background: #f59bad;
-    font-size: 35px;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-main p {
-    margin: 10px 0 0 0;
-    text-align: center;
+.tools {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.about p {
+    margin: 0 0 1em;
+}
+
+.about strong{
+    font-weight: bold;
+}
+
+.about em {
+    font-style: italic;
 }
 
 #goal {
