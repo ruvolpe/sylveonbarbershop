@@ -1,3 +1,7 @@
+body {
+    font-family: 'Mali', cursive;
+}
+
 header {
     background: #f7e8d8;
     padding: 20px 0;
@@ -39,13 +43,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.about, .benefits {
-    padding: 35px;
-    color: #778BBE;
-}
-
 .banner {
     width: 100%;
+}
+
+main {
+    color: #778BBE;
 }
 
 .main-title {
@@ -54,6 +57,7 @@ nav a:hover {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    padding: 7px;
 }
 
 .tools {
@@ -64,6 +68,13 @@ nav a:hover {
 
 .about p {
     margin: 0 0 1em;
+}
+
+.about {
+    padding: 3em 0 0;
+    background: #FFFFFF;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .about strong{
@@ -82,24 +93,56 @@ em strong {
     color: #f492a5;
 }
 
-.itens {
-    font-style: italic;
+.map {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.lista {
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.benefits {
+    text-align: center;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.benefits-content {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.benefits-list {
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin: 10px 0 0 10%;
+    width: 40%;
+    margin: 10px 0;
     font-size: 20px;
-    font-weight: bold;
     background: #f9cbd0;
     list-style-type: upper-roman;
 }
 
-.benefits_image {
-    margin: 10px 0 0 0;
-    width: 30%;
+.itens {
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.benefits-image {
+    margin: 10px 0 0;
+    width: 45%;
+}
+
+.video {
+    text-align: center;
+    background: linear-gradient(#ffffff, #f7e8d8);
+    padding: 20px 0;
 }
 
 footer {
