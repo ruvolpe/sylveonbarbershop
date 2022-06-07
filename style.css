@@ -8,25 +8,24 @@ header {
 }
 
 .logo{
-    width: 100px;
+    width: 20%;
     margin: 0 10%;
 }
 
 .box {
-    width: 940px;
     position: relative;
+    width: 940px;
     margin: 0 auto;
 }
 
 nav {
     position: absolute;
-    top: 30px;
+    top: 50%;
     right: 0;
 }
 
 nav li {
     display: inline;
-    float: left;
     margin: 0 0 0 15px;
 }
 
@@ -168,20 +167,16 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .about, .map, .video {
+    .box, .benefits-content, .about, .map, .video {
         width: auto;
     }
 
-    .box, .benefits-content {
-        width: 100%;
+    h1 {
+    	text-align: center;
     }
 
     nav {
         position:static;
-    }
-
-    nav a {
-        font-size: 40px;
     }
 
     .benefits-list, .benefits-image {
