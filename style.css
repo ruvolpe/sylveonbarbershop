@@ -12,7 +12,7 @@ header {
     margin: 0 10%;
 }
 
-.caixa {
+.box {
     width: 940px;
     position: relative;
     margin: 0 auto;
@@ -141,6 +141,12 @@ em strong {
 .benefits-image {
     margin: 10px 0 0;
     width: 52.5%;
+    transition: 400ms;
+    box-shadow: 10px 10px 20px #f9cbd0;
+}
+
+.benefits-image:hover {
+    opacity: 0.7;
 }
 
 .video {
@@ -159,4 +165,26 @@ footer {
     color: #95daf8;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .about, .map, .video {
+        width: auto;
+    }
+
+    .box, .benefits-content {
+        width: 100%;
+    }
+
+    nav {
+        position:static;
+    }
+
+    nav a {
+        font-size: 40px;
+    }
+
+    .benefits-list, .benefits-image {
+        width: 100%;
+    }
 }
